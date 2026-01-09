@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - EL ROI PHONES</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+    /* This makes the video stay fixed at the back */
+    #video-bg {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: -1; /* Puts it behind everything */
+        object-fit: cover;
+    }
+
+    /* This adds a dark tint so your text is easy to read */
+    .video-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5); /* 50% Black Tint */
+        z-index: -1;
+    }
+</style>
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">EL ROI PHONES</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+       <h2 class="text-center mb-4 text-white">Our Latest Inventory</h2>
+        <p class="text-center text-white mb-5"><i>High-quality devices sourced independently for reliability.</i></p>
+
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <img src="images/iphone17.webp" class="card-img-top" alt="#1" style="height: 200px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title">iPhone 17 Pro Max 6.9" 256GB/512GB/1TB/2TB (A3526 DUAL SIM)</h5>
+                        <h6 class="text-primary fw-bold mb-3">₵ 38,500.00</h6>
+                        <p class="card-text">UK Used & Brand New available. Verified authentic.</p>
+                        <span class="badge bg-success">In Stock</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-2">
+                <div class="card shadow-sm h-100">
+                    <img src="images/samsungultra.AVIF" class="card-img-top" alt="#2" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung's Galaxy S25 Ultra</h5>
+                        <h6 class="text-primary fw-bold mb-3">₵ 17,850.00</h6>
+                        <p class="card-text">S-Series and A-Series available. Durable and sleek.</p>
+                        <span class="badge bg-success">In Stock</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <img src="images/smartwatch.jpg" class="card-img-top" alt="#3" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Smart Watch</h5>
+                        <h6 class="text-primary fw-bold mb-3">₵ 653.00</h6>
+                        <p class="card-text">Oraimo Watch 5 Lite 2.01" HD IP68 Smart Watch -Black</p>
+                        <span class="badge bg-primary">Best Sellers</span>
+                    </div>
+                </div>
+            </div>
+
+             <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <img src="images/laptop.webp" class="card-img-top" alt="#4" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">MACBOOK AIR LAPTOP 13' 8GB, 128SSD, BIG SUR, WEBCAM ,WIFI, BLUETOOTH</h5>
+                        <h6 class="text-primary fw-bold mb-3">₵ 22,000.00</h6>
+                        <p class="card-text">A brand-new, unused, unopened. Durable and sleek.</p>
+                        <span class="badge bg-success">In Stock</span>
+                    </div>
+                </div>
+             </div>
+
+                <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <img src="images/extender.AVIF" class="card-img-top" alt="#5" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Laptop Screen Extender</h5>
+                        <h6 class="text-primary fw-bold mb-3">₵ 3,840.00</h6>
+                        <p class="card-text">Cooler HD Three-Display 15.6-Inch FHD 1080P IPS Laptop Screen Extender, Compatible with 12"-18.5".</p>
+                        <span class="badge bg-success">In Stock</span>
+                    </div>
+                </div>
+            </div>
+
+             <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <img src="images/glasses.AVIF" class="card-img-top" alt="#6" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Smart Glasses</h5>
+                        <h6 class="text-primary fw-bold mb-3">₵ 500.00</h6>
+                        <p class="card-text">ANKRIYUL Smart Glasses with Wireless Audio - Wireless Hands-Free Glasses Suitable for Office, Music, Phone Calls, Compatible for Smartphones, Lightweight with Volume Control & USB- Charging (No Charger Included).</p>
+                        <span class="badge bg-success">In Stock</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <img src="images/projector.jpg" class="card-img-top" alt="#7" style="height: 200px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title">Multimedia projector</h5>
+                        <h6 class="text-primary fw-bold mb-3">₵ 5,850.00</h6>
+                        <p class="card-text">Share this product
+
+
+
+Epson Projector EB-W06-3600 Lumens, HDMI,VGA,USB.</p>
+                        <span class="badge bg-success">In Stock</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <img src="images/tripod.jpg" class="card-img-top" alt="#8" style="height: 200px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title"> Phone Vlog Tripod</h5>
+                        <h6 class="text-primary fw-bold mb-3">₵ 250.00</h6>
+                        <p class="card-text">Phone Vlog Video Kit With Adjustable Tripod/ Stabilizer.</p>
+                        <span class="badge bg-success">In Stock</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <img src="images/console.webp" class="card-img-top" alt="#9" style="height: 200px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title">PS5 Console</h5>
+                        <h6 class="text-primary fw-bold mb-3">₵ 8,990.00</h6>
+                        <p class="card-text">Sony PS5 Slim Console - Play station White with Games.</p>
+                        <span class="badge bg-success">In Stock</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <img src="images/webcam.AVIF" class="card-img-top" alt="#10" style="height: 200px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title">Web Cam</h5>
+                        <h6 class="text-primary fw-bold mb-3">₵ 3,799.00</h6>
+                        <p class="card-text">1080P Webcam with Microphone, C960 Web Camera, 2 Mics Streaming 1080P Black.</p>
+                        <span class="badge bg-success">In Stock</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <img src="images/printer.webp" class="card-img-top" alt="#11" style="height: 200px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title">Portable printer</h5>
+                        <h6 class="text-primary fw-bold mb-3">₵ 1,400.00</h6>
+                        <p class="card-text">Portable Printer Wireless for Travel, D810 Bluetooth Thermal Printer Support for Travel.</p>
+                        <span class="badge bg-success">In Stock</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <img src="images/battery.jpg" class="card-img-top" alt="#12" style="height: 200px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title">Power station</h5>
+                        <h6 class="text-primary fw-bold mb-3">₵ 4,761.05</h6>
+                        <p class="card-text">ECOFLOW RIVER 2 Pro Portable Power Station, 768Wh LiFeP04 Battery, 70 Min Fast Charging, 3X800W AC Outlets, for Outdoor Camping/RVs/Home Use - Silver.</p>
+                        <span class="badge bg-success">In Stock</span>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-4 mt-auto">
+        <div class="container">
+            <p class="mb-0">&copy; 2025 EL ROI PHONES. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+<video autoplay muted loop playsinline webkit-playsinline id="video-bg" poster="images/low.jpg">
+    <source src="images/shop-bg.mp4" type="video/mp4">
+</video>
+
+<div class="video-overlay"></div>
+</html>
